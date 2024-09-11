@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1d6cc37c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Domacin Shop</title>
+</head>
+<body>
+    <nav class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 d-flex justify-content-center justify-content-md-start align-items-center text-center text-md-left">
+                    <p>DOMAĆIN</p>
+                    <img src="dp-logo-2.png" alt="" class="img-fluid ">
+                    <p>WEAR</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="cart-items d-flex align-items-center">
+                        
+                    </div>
+                    <div class="total">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h4>Ukupno: 0,00 RSD</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="/dp-2.png" alt="" width="100%" style="border: 2px solid black;">
+            </div>
+            <div class="col-md-7 p-3">
+                <div class="description py-5">
+                    <h3>Domaćin majica crna</h3>
+                    <h4 class="price">2000,00 RSD</h4>
+                    <hr>
+                    <h5>Opis proizvoda</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit illum fugiat commodi reiciendis, quisquam voluptatibus!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum vel suscipit mollitia earum. Commodi, nisi.
+                    </p>
+                    <hr>
+                     <select name="" id="size">
+                    <option value="">Veličina</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    </select>
+                    <br>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0"> 
+                        <button onclick="addToCart(this)"><i class="fa-solid fa-cart-shopping"></i>Dodaj u korpu</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
