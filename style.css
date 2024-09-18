@@ -126,3 +126,17 @@ nav p {
         font-size: 17px;
     }
 }
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/GIL_____.TTF') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('/fonts/Haettenschweiler.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
